@@ -20,7 +20,7 @@ body {
 }
 
 .body {
-  width: 1360px;
+  width: 85rem;
   display: flex;
   margin: auto;
   flex-direction: column;
@@ -225,7 +225,7 @@ input[type="text"] {
 
   padding: 1.5rem;
   height: 37rem;
-  width: 53.5rem;
+  width: 54.5rem;
 
   background-color: #dddddd;
   border: #dddddd 0.1rem solid;
