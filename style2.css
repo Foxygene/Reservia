@@ -424,6 +424,7 @@ input[type="text"] {
     background-color: var(--box-color);
     margin-left: 2.1rem;
     margin-right: 2.1rem;
+    width: 71%;
 
     border: #dddddd 0.1rem solid;
     border-radius: 1.5rem;
@@ -451,7 +452,7 @@ input[type="text"] {
   }
 
   .pop-block {
-    width: 50%;
+    width: 29%;
     margin-right: 2.1rem;
 
     border: #dddddd 0.1rem solid;
@@ -474,8 +475,16 @@ input[type="text"] {
   height: 100%;
 }
 
+.act-block > .card > .card-text {
+  font-weight: bold;
+}
+
 .small-cards > .card > .card-image {
   height: 100%;
+}
+
+.small-cards > .card > .card-text {
+  font-weight: bold;
 }
 
 .act-block > .card > .card-image > img {
