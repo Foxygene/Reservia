@@ -35,7 +35,22 @@ body {
   body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: auto;
+  }
+
+  nav {
+    width: 100%;
+    max-width: 1600px;
+  }
+
+  header {
+    width: 100%;
+    max-width: 1600px;
+  }
+
+  main {
+    width: 100%;
     max-width: 1600px;
   }
 
@@ -561,7 +576,15 @@ footer {
 
 @media screen and (min-width: 1024px) {
   footer {
+    width: 100%;
+  }
+
+  .footer-block {
+    display: flex;
     flex-direction: row;
+    margin: auto;
+    width: 100%;
+    max-width: 1600px;
   }
   .footer-unit {
     width: 33%;
