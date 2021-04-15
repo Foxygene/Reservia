@@ -90,6 +90,7 @@ nav {
 }
 
 .button:hover {
+  transition: all 0.3s ease-in;
   color: var(--primary-color);
   border-top: 0.2rem var(--primary-color) solid;
 }
@@ -116,6 +117,7 @@ nav {
   }
 
   .button:hover {
+    transition: all 0.3s ease-in;
     border-bottom: 0.2rem var(--primary-color) solid;
     border-top: 0.2rem transparent solid;
   }
@@ -252,6 +254,9 @@ input[type="text"] {
 }
 
 .filter-box:hover {
+  transition: all 0.1s ease-in;
+  transform: scale(1.1);
+  transition: scale 0.2s linear 0;
   background-color: #deebff;
   border-color: #deebff;
 }
