@@ -17,6 +17,11 @@
   font-family: Raleway;
 }
 
+a {
+  text-decoration: none;
+  color: initial;
+}
+
 html,
 body {
   min-height: 100vh;
@@ -60,7 +65,7 @@ body {
 }
 
 .logo-box {
-  padding: 0.3rem 0 0 2.1rem;
+  padding: 0.3rem 0 0 1.9rem;
   flex-grow: 1;
 }
 
@@ -189,6 +194,7 @@ input[type="text"] {
 
   font-size: 1rem;
   font-weight: bold;
+  outline: none;
 }
 
 .button-box {
@@ -200,6 +206,10 @@ input[type="text"] {
   border: var(--primary-color) 0.1rem solid;
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+}
+
+.button-box:hover {
+  cursor: pointer;
 }
 
 .fa-search {
@@ -219,6 +229,7 @@ input[type="text"] {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  padding: 0 1rem 0 1rem;
 
   font-weight: bold;
 }
@@ -254,7 +265,8 @@ input[type="text"] {
 }
 
 .filter-box:hover {
-  transition: all 0.2s ease-in;
+  cursor: pointer;
+  transition: all 80ms ease-in;
   transform: scale(1.1);
   background-color: #deebff;
   border-color: #deebff;
@@ -335,6 +347,14 @@ input[type="text"] {
 
   box-shadow: 0px 0px 10px #b3b3b3;
 }
+
+.card:hover {
+  cursor: pointer;
+  transition: all 80ms ease-in;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 30px #b3b3b3;
+}
+
 .card-image {
   height: 60%;
   overflow: hidden;
@@ -451,7 +471,7 @@ input[type="text"] {
 
   .heb-cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -571,6 +591,9 @@ footer {
 
 .footer-unit {
   margin: 1rem 0 1rem 2.1rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
 }
 
 .footer-title {
