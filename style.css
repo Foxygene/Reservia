@@ -593,8 +593,11 @@ footer {
   flex-direction: column;
 }
 
+.footer-block {
+  padding: 1rem 0 1rem 4.2rem;
+}
+
 .footer-unit {
-  padding: 1rem 0 1rem 5.1rem;
   display: flex;
   flex-direction: column;
   line-height: 2rem;
@@ -613,9 +616,10 @@ footer {
   .footer-block {
     display: flex;
     flex-direction: row;
-    margin: auto;
     width: 100%;
     max-width: 1600px;
+    margin: auto;
+    padding-left: 8.5rem;
   }
   .footer-unit {
     align-items: flex-start;
