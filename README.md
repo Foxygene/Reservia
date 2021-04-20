@@ -6,7 +6,7 @@
 
 Reservia is my first web project using html and css only.
 
-It's a frontpage for an airbnb like fictional company.
+It's a frontpage for an airbnb-like fictional company.
 
 ## What's the purpose
 
