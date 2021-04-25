@@ -595,8 +595,7 @@ footer {
 }
 
 .footer-block {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
+  padding: 1rem 2rem 4.1rem;
 }
 
 .footer-unit {
@@ -617,7 +616,6 @@ footer {
     width: 100%;
     display: flex;
     align-items: center;
-    padding-left: 4.1rem;
   }
 
   .footer-block {
